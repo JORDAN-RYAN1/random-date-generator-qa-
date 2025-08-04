@@ -25,14 +25,6 @@ qa-challenge-complete/
 └── 📋 requirements.txt              # Python dependencies
 
 ````
-# File 1: requirements.txt
-selenium==4.15.0
-pytest==7.4.3
-pytest-html==4.1.1
-pytest-metadata==3.0.0
-webdriver-manager==4.0.1
-
-
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
