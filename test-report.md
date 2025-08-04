@@ -8,7 +8,7 @@
 
 ---
 
-## ✅ Summary
+## ✅ Summary Pass Rate: 70% (7/10 tests passed)
 
 | Total Test Cases | Passed | Failed | Notes |
 |------------------|--------|--------|-------|
