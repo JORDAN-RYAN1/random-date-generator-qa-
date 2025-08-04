@@ -25,6 +25,72 @@ qa-challenge-complete/
 └── 📋 requirements.txt              # Python dependencies
 
 ````
+# File 1: requirements.txt
+selenium==4.15.0
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-metadata==3.0.0
+webdriver-manager==4.0.1
+
+# File 2: README.md
+
+# 🧪 QA Test Suite - Random Date Generator
+
+## Overview
+This repository contains both **manual** and **automated** testing approaches for the Random Date Generator at CodeBeautify.org.
+
+### Testing Approaches Used:
+- ✅ **Manual Testing**: Comprehensive UI/UX evaluation
+- ✅ **Automated Testing**: Python + Selenium for technical validation
+
+---
+
+## 📁 Project Structure
+```
+qa-challenge/
+├── README.md                    # This file
+├── requirements.txt             # Python dependencies
+├── test_random_date_generator.py # Automated test suite
+├── manual-test-report.md        # Manual testing results
+├── bug-report.md               # Identified bugs/issues
+├── report.html                 # Generated test report (after running)
+└── page_screenshot.png         # Captured screenshot (after running)
+```
+
+---
+
+## 🚀 Quick Start Guide
+
+### Prerequisites
+- Python 3.8+ installed
+- Chrome browser installed
+- Internet connection (for ChromeDriver auto-download)
+
+### Setup & Execution
+
+#### Step 1: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 2: Run Automated Tests
+```bash
+# Basic run
+pytest test_random_date_generator.py -v
+
+# With HTML report
+pytest test_random_date_generator.py -v --html=report.html --self-contained-html
+
+# With detailed output
+pytest test_random_date_generator.py -v -s --html=report.html --self-contained-html
+```
+
+#### Step 3: View Results
+- **Console output**: Real-time test results
+- **HTML report**: Open `report.html` in browser
+- **Screenshot**: Check `page_screenshot.png`
+
+---
 
 ---
 
